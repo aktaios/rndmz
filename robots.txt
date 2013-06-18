@@ -1,0 +1,4 @@
+Sitemap: http://www.zari.mobi/sitemap.xml
+
+User-agent: *
+Disallow: /contact.html

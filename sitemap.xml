@@ -71,9 +71,4 @@
         <changefreq>always</changefreq>
         <mobile:mobile/>
     </url>
-    <url>
-        <loc>http://www.zari.mobi/contact.html</loc>
-        <changefreq>monthly</changefreq>
-        <mobile:mobile/>
-    </url>
 </urlset>
