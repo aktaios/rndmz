@@ -4,14 +4,14 @@ function getRandomIntd6 () {
 }
 function getRandomMAR () {
     xy = Math.floor(Math.random() * (2 - 1 + 1)) + 1;
-    if (xy==2){sxy="<img src='images/MA0.gif' alt='Μαργαρήτα'/>";}
-    else if (xy==1){sxy="<img src='images/MA1.gif' alt='Μαργαρήτα'/>";}
+    if (xy==2){sxy="<img src='images/MA0.gif?"+new Date().getTime()+"' alt='Μαργαρήτα'/>";}
+    else if (xy==1){sxy="<img src='images/MA1.gif?"+new Date().getTime()+"' alt='Μαργαρήτα'/>";}
     document.write(sxy);
 }
 function getRandomKER () {
     xy = Math.floor(Math.random() * (2 - 1 + 1)) + 1;
-    if (xy==2){sxy="<img src='images/kerma_K.gif' alt='Κέρμα'/>";}
-    else if (xy==1){sxy="<img src='images/kerma_G.gif' alt='Κέρμα'/>";}
+    if (xy==2){sxy="<img src='images/kerma_K.gif?"+new Date().getTime()+"' alt='Κέρμα'/>";}
+    else if (xy==1){sxy="<img src='images/kerma_G.gif?"+new Date().getTime()+"' alt='Κέρμα'/>";}
     document.write(sxy);
 }
 
