@@ -327,7 +327,91 @@ display:block;
 	width:60%;
 	padding:0 0 0 20px;
 }
-/*img float*/
+#tetraedro
+{
+	background:url(../images/tetraedro.png);
+	background-size:40px 40px;
+	background-repeat:no-repeat;
+        background-origin:content-box;
+}
+#tetraedrox2
+{
+	background:url(../images/tetraedro.png),url(../images/tetraedro.png);
+	background-size:40px 40px,20px 20px;
+	background-repeat:no-repeat;
+        background-origin:content-box;
+}
+#eksaedro
+{
+	background:url(../images/eksaedro.png);
+	background-size:40px 40px;
+	background-repeat:no-repeat;
+        background-origin:content-box;
+}
+#eksaedrox2
+{
+	background:url(../images/eksaedro.png),url(../images/eksaedro.png);
+	background-size:40px 40px,20px 20px;
+	background-repeat:no-repeat;
+        background-origin:content-box;
+}
+#oktaedro
+{
+	background:url(../images/oktaedro.png);
+	background-size:40px 40px;
+	background-repeat:no-repeat;
+        background-origin:content-box;
+}
+#oktaedrox2
+{
+	background:url(../images/oktaedro.png),url(../images/oktaedro.png);
+	background-size:40px 40px,20px 20px;
+	background-repeat:no-repeat;
+        background-origin:content-box;
+}
+#dekaedro
+{
+	background:url(../images/dekaedro.png);
+	background-size:40px 40px;
+	background-repeat:no-repeat;
+        background-origin:content-box;
+}
+#dekaedrox2
+{
+	background:url(../images/dekaedro.png),url(../images/dekaedro.png);
+	background-size:40px 40px,20px 20px;
+	background-repeat:no-repeat;
+        background-origin:content-box;
+}
+#dodekaedro
+{
+	background:url(../images/dodekaedro.png);
+	background-size:40px 40px;
+	background-repeat:no-repeat;
+        background-origin:content-box;
+}
+#dodekaedrox2
+{
+	background:url(../images/dodekaedro.png),url(../images/dodekaedro.png);
+	background-size:40px 40px,20px 20px;
+	background-repeat:no-repeat;
+        background-origin:content-box;
+}
+#ikosaedro
+{
+	background:url(../images/ikosaedro.png);
+	background-size:40px 40px;
+	background-repeat:no-repeat;
+        background-origin:content-box;
+}
+#ikosaedrox2
+{
+	background:url(../images/ikosaedro.png),url(../images/ikosaedro.png);
+	background-size:40px 40px,20px 20px;
+	background-repeat:no-repeat;
+        background-origin:content-box;
+}
+/*img floa   t   */
 #wrapper{
 /*width:50px;
 height:50px;*/
