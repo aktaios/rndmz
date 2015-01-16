@@ -411,6 +411,14 @@ display:block;
 	background-repeat:no-repeat;
         background-origin:content-box;
 }
+.caco
+{
+        background:#2d2d2d;
+	color:#767676;
+        border:0px solid #2d2d2d;
+        -webkit-border-radius:0;
+        -webkit-user-select: none;
+}
 /*img floa   t   */
 #wrapper{
 /*width:50px;

@@ -69,3 +69,51 @@ function getRandomInts (minn, maxn, plith) {
     }
     document.write(mlist.toString());
 }
+
+function setKO(timeim,timeis) {
+//debug
+//  console.log(sessionStorage.usedZM);
+    console.log(sessionStorage.kickoffZM);
+    console.log(timeim+timeis);
+    if ((timeis>5 || timeim>0) && sessionStorage.usedZM!="TR"){
+      var now = new Date();
+      now = now.getTime();
+      now = (now + ((timeim*60*1000)+(timeis*1000)));
+      sessionStorage.usedZM="TR";
+      sessionStorage.kickoffZM=now;
+      runForest = setInterval('updateWCTime()', 1000 );
+    }
+    
+    return false;
+}
+
+/**
+ *COUNTDOWN func
+ * 
+ */
+function updateWCTime() {
+    //DEBUG
+    //console.log(sessionStorage.usedZM);
+    console.log(sessionStorage.kickoffZM);
+    
+    now      = new Date();
+    now = now.getTime();
+    kickoff  = sessionStorage.kickoffZM;
+    diff = kickoff - now;
+    if (isNaN(diff)){sessionStorage.usedZM="NNoo";}
+    if (diff<1){sessionStorage.usedZM="NNoo";clearInterval(runForest);}
+    mins  = Math.floor( diff / (1000*60) );
+    secs  = Math.floor( diff / 1000 );
+    mm = mins;//  - hours * 60;
+    ss = secs  - mins  * 60;
+    if (sessionStorage.usedZM=="TR"){
+	outSt = 'Ο χρώνος κυλά: '+mm + ' λεπτά ' +
+                ss + ' δευτερόλεπτα ακόμα.!';   
+    }else{
+	outSt = 'Πατήστε "Ξεκήνα! για αντίστροφη μέτρηση."'
+    }
+    document.getElementById("klepsidra").innerHTML = outSt;
+                
+}
+    
+
