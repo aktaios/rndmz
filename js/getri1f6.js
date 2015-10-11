@@ -10,8 +10,8 @@ function getRandomMAR () {
 }
 function getRandomKER () {
     xy = Math.floor(Math.random() * (2 - 1 + 1)) + 1;
-    if (xy==2){sxy="<img src='images/kerma_K.gif?"+new Date().getTime()+"' alt='Κέρμα'/>";}
-    else if (xy==1){sxy="<img src='images/kerma_G.gif?"+new Date().getTime()+"' alt='Κέρμα'/>";}
+    if (xy==2){sxy="<img src='images/kermK.gif?"+new Date().getTime()+"' alt='Κέρμα'/>";}
+    else if (xy==1){sxy="<img src='images/kermG.gif?"+new Date().getTime()+"' alt='Κέρμα'/>";}
     document.write(sxy);
 }
 
