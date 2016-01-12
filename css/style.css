@@ -12,6 +12,15 @@ blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
 table{border-collapse:collapse;border-spacing:0;}
 /* start editing from here */
+/* split extra space fill divisions 15*/
+
+
+div.box { background: #000;height: 100%; width:  window.innerWidth + "px;" }
+div.div1{ float: left; height: 100%; width: auto; }
+div.div2{ background: #000; height: 100%; }
+div.clear { clear: both; height: 1px; overflow: hidden; font-size:0pt; margin-top: -1px; }
+/*15end*/
+
 a{text-decoration:none;}
 .txt-rt{text-align:right;}/* text align right */
 .txt-lt{text-align:left;}/* text align left */
@@ -35,7 +44,7 @@ img{max-width:100%;vertical-align:middle;}
 /*img[width],img[height]{width:auto;height:auto;} wordpress hack to reset the attributes (while making responsive) */
 body{
 	font-family:Comic Sans MS,Arial, Helvetica, sans-serif;
-	background:#0d0d0d;
+	background:#000;
 }
 article{
 	font-size:14px;
@@ -244,7 +253,7 @@ header .vertical{
 .logo img{
 	display:block;
 }
-footer{
+footer{ height:100%;
 	background:#000;
 	color:#565656;
 }
